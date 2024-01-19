@@ -1,0 +1,22 @@
+uuid: 0f51ee55-8645-43e5-8b88-321fd253bf70
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: 8j9hisdngTupLUx1Bf9_85MIlaYE_WuvgkbBV0fMyRk
+id: cv_powered_by_drupal
+theme: cv
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

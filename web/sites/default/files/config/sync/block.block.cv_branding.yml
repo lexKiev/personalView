@@ -1,0 +1,25 @@
+uuid: a3228f5b-695a-4fd2-9b4a-a6cf4578da26
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: 0LVXnLNpDLc4fGOKpWN8FYS0oF2Q9EpTalk5qcgtfas
+id: cv_branding
+theme: cv
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

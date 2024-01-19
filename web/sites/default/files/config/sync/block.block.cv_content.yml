@@ -1,0 +1,22 @@
+uuid: b09094ba-d2bb-4320-97c1-4c1f9b5ca2d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: noR9-7wIe7WWCx1iG1ZTWaSXucncfcXDx88YMfqIp-M
+id: cv_content
+theme: cv
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

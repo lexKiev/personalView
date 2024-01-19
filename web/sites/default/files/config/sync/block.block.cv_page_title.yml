@@ -1,0 +1,20 @@
+uuid: 46e6a0c4-89dc-4fff-870c-dfcf975fb1e0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cv
+_core:
+  default_config_hash: ShDBhwgqSlgpG8-xqDzuJmkPDAGWSyqP3x8-COhKcY8
+id: cv_page_title
+theme: cv
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

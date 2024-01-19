@@ -1,0 +1,27 @@
+uuid: 5e2788f4-1014-42d3-8087-699511603785
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: ANmNSxtCIyzs6AMVlF3WxICu11SMu6lMf5nnYXzLXXE
+id: cv_footer
+theme: cv
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

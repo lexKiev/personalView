@@ -1,0 +1,27 @@
+uuid: 188d299a-0d5c-4456-b90f-cffbd14e08ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: YIpnHse4n1gUSZWr0P077kPNkzPMptkFfAKahdQiq7o
+id: cv_main_navigation
+theme: cv
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

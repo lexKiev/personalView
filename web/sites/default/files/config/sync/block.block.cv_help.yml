@@ -1,0 +1,22 @@
+uuid: ffc898db-90d2-4068-8095-b674114563ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cv
+_core:
+  default_config_hash: o7P2kn9vPnCt4fT0SUgAZ_iBeNJz97iydxa10vENSqE
+id: cv_help
+theme: cv
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

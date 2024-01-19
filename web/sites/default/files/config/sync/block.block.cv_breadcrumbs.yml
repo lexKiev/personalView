@@ -1,0 +1,22 @@
+uuid: fb8ef5b6-0f5b-4f31-8d4b-2eecce4c1e5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cv
+_core:
+  default_config_hash: lLoT_nbnQ49aSnIC_XiO4Wkv3htvKcZxj8aSCbnrt1A
+id: cv_breadcrumbs
+theme: cv
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

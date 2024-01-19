@@ -1,0 +1,23 @@
+uuid: c7fc34f7-e16c-4a0e-9263-45b31af1d63e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - cv
+_core:
+  default_config_hash: '-Yc0pknbpI3EXWW7rvgFIHO2rog1VUTJDE1s3fWZduk'
+id: cv_search_form
+theme: cv
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
